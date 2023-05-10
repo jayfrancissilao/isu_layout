@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-01 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 700px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-02 {
+
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media(max-width:800px) {
+    .card-01 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-02 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+
+
+}
+
+/* section start */
+
+
+.card-03 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 800px;
+    height: 250px;
+    margin: 10px;
+}
+
+.card-04 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 450px;
+    height: 250px;
+    margin: 10px;
+}
+
+.card-05 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 450px;
+    height: 250px;
+    margin: 10px;
+}
+
+.card-06 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 800px;
+    height: 250px;
+    margin: 10px;
+}
+
+@media(max-width:800px) {
+    .card-03 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-04 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-05 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-06 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+
+
+}
+
+
+.card-001 {
+
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 250px;
+    margin: 10px;
+}
